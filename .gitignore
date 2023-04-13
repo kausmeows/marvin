@@ -1,6 +1,6 @@
-cliGPT.toml
-.cliGPT-history
-cliGPT.egg-info
+marvin.toml
+.marvin-history
+marvin.egg-info
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

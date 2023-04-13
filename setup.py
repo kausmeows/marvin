@@ -10,7 +10,7 @@ README = (HERE / "readme.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="cliGPT",
+    name="marvin",
     version="1.0.0",
     description="Leveraging GPT in your CLI",
     long_description=README,
@@ -24,12 +24,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["cliGPT"],
+    packages=["marvin"],
     include_package_data=True,
     install_requires=["wheel", "openai", "toml", "colored", "inquirer"],
     entry_points={
         "console_scripts": [
-            "cliGPT=cliGPT.__main__:main",
+            "marvin=marvin.__main__:main",
         ]
     },
 )
