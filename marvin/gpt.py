@@ -1,5 +1,6 @@
 import os, openai
-from . import config, logs, prompt
+from . import config
+from utils import logs, prompt
 from .fine_tune_data import FineTuneData
 
 def generate_bash(user_input):
@@ -26,7 +27,7 @@ def generate_bash(user_input):
       presence_penalty=0,
       stop=["\n"]
     )
-
+    
     logs.debug(prompt_content + output.choices[0].text)
     return output.choices[0].text
 

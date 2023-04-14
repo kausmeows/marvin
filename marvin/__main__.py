@@ -1,6 +1,7 @@
 import sys
 from .user import User
-from . import gpt, config, logs
+from . import gpt, config
+from utils import logs
 
 def main():
   if(len(sys.argv) > 1 and sys.argv[1] == '--add-openai-key'):

@@ -1,6 +1,7 @@
 from tempfile import NamedTemporaryFile
 import csv, shutil
-from . import config, logs
+from . import config
+from utils import logs
 
 HISTORY_FILE_PATH = config.get('HISTORY_FILE_NAME')
 

@@ -15,7 +15,7 @@ setup(
     description="Leveraging GPT in your CLI",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/kaustubh-s1/cliGPT",
+    url="https://github.com/kaustubh-s1/marvin",
     author="Kaustubh",
     author_email="shuklakaustubh84@gmail.com",
     license="MIT",
@@ -26,7 +26,7 @@ setup(
     ],
     packages=["marvin"],
     include_package_data=True,
-    install_requires=["wheel", "openai", "toml", "colored", "inquirer"],
+    install_requires=["openai", "toml", "colored", "inquirer"],
     entry_points={
         "console_scripts": [
             "marvin=marvin.__main__:main",

@@ -1,5 +1,5 @@
 from colored import fg, bg, attr
-from . import config
+from marvin import config
 
 
 def debug(content):
