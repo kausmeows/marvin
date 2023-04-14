@@ -5,7 +5,7 @@
 # <u>marvin</u>: a <span style="color:aqua">GPT powered cli tool</span> that helps you remember bash commands
 
 `Marvin` is an AI robot first mentioned in the book [`The Hithchiker's Guide to the Galaxy- Doughlas Adams`](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy). It's a great sci-fi series, if you haven't already read it, this is your cue. 
-Since then marvin been reprogrammed to convert english descriptions into bash commands and other cli based tasks. The user can just ask him anything regarding that right in the CLI. But son't bug him too much ;)
+Since then marvin has been reprogrammed to convert english descriptions into bash commands and other cli based tasks. The user can just ask him anything regarding that right in the CLI. But son't bug him too much ;)
 
 ![CLI Demo](assets/marvin_demo.gif)
 
