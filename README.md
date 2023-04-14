@@ -10,7 +10,7 @@ Since then marvin been reprogrammed to convert english descriptions into bash co
 ![CLI Demo](assets/marvin_demo.gif)
 
 ## How to use?
-- Get your own OpenAI API key
+- Get your own `OpenAI API key` (or help me get more OpenAI credits by `buying me a book` 👀 [here](https://www.buymeacoffee.com/kaus.moshttps://www.buymeacoffee.com/kaus.mos))
 ```
 $ git clone https://github.com/kaustubh-s1/marvin.git 
 $ cd marvin
